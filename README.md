@@ -4,7 +4,8 @@ This repository holds a collection of my Python learning journey, including note
 
 ### Contents
 1. [Python Basic](python_basics)
-   - [x] Variables and Data Types :heavy_check_mark:
+   - [Variables and Data Types](python_basics/variables_and_datatypes.py) :heavy_check_mark:
+   - [Data Structures](python_basics/data_structures.py) :heavy_check_mark:
    - Control Structures
    - Functions and Modules
    - File Handling
