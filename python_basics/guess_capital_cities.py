@@ -1,4 +1,5 @@
 import random
+import os
 
 # ANSI escape codes for text formatting
 BOLD = "\033[1m"
@@ -7,6 +8,10 @@ RED = "\033[91m"
 YELLOW = "\033[93m"
 BLUE = "\033[94m"
 RESET = "\033[0m"
+
+def clear_console():
+    """Clear the console screen."""
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 europaen_countries = {
   "Albanien": "Tirana",
@@ -256,14 +261,19 @@ all_world = {
 countriesSelected = False
 countries = europaen_countries
 
+
+
 startInfo = f"""
 {BOLD}
-\nHallo, \n\nschön, dass Du dieses Quiz spielst. Was möchtest Du testen ? \n
+Hallo, \n\nschön, dass Du dieses Quiz spielst. Was möchtest Du testen ? \n
 Europäische Länder und ihre Hauptstädte? --> drücke [1]
 Alle Länder der Welt und ihre Hauptstädte? --> drücke [2]\n\n
 Bitte wähle entweder 1 (für europäische Länder) oder 2 (für alle Länder der Welt).
 {RESET}
 """
+
+# clear the console first
+clear_console()
 
 print(startInfo)
 
