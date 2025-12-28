@@ -9,7 +9,7 @@ This repository holds a collection of my Python learning journey, including note
    - [Control Structures](python_basics/control_structures.py)
    - [Functions and Modules](python_basics/functions_and_modules.py)
    - [Commandline Input and Mini-Game "Capital Cities"](python_basics/guess_capital_cities.py)
-   - File Handling
+   - [File Handling](python_basics/file_handling.py)
 2. Object-Oriented Programming
    - Classes and Objects
    - Inheritance and Polymorphism
