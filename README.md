@@ -8,6 +8,7 @@ This repository holds a collection of my Python learning journey, including note
    - [Data Structures](python_basics/data_structures.py)
    - [Control Structures](python_basics/control_structures.py)
    - [Functions and Modules](python_basics/functions_and_modules.py)
+   - [Commandline Input](python_basics/guess_eu_capitals.py)
    - File Handling
 2. Object-Oriented Programming
    - Classes and Objects
