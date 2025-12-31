@@ -11,9 +11,20 @@ for line in f:
 f.close()
 
 print(countries)
+print("\nLänge der Länderliste: "+ str(len(countries)))
 
-print("Länge der Länderliste: "+ str(len(countries)))
+for country in countries:
+    if(country[0] == "T"):
+        print(country)
 
-f = open("countries_new.txt","w")
 
-f.write("Test")
+# reverse the countries list
+countries.reverse()
+
+# write the countries to the new file
+f = open("countries_in_reverse.txt","w")
+
+for country in countries:
+    f.write(country + "\n")
+
+f.close()
