@@ -34,3 +34,5 @@ coordinates = (10.0, 20.0)
 # print the coordinates
 print(f"Coordinates are: x={coordinates[0]}, y={coordinates[1]}")
 
+fruits = {"pears": 2, "apples": 3, "bananas": 1}
+fruits["rasp"]
