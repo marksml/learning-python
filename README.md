@@ -7,10 +7,11 @@ This repository holds a collection of my Python learning journey, including note
    - [Variables and Data Types](python_basics/variables_and_datatypes.py) 
    - [Data Structures](python_basics/data_structures.py)
    - [Control Structures](python_basics/control_structures.py)
-   - [Functions and Modules](python_basics/functions_and_modules.py)
    - [Commandline Input and Mini-Game "Capital Cities"](python_basics/guess_capital_cities.py)
    - [File Reading](python_basics/file_reading_scores.py)
    - [File Reading & Writing](python_basics/file_handling.py)
+   - [Functions and Modules](python_basics/functions_and_modules.py)
+   - [Functions and Modules: Wordplay](python_basics/words.py)
 2. Object-Oriented Programming
    - Classes and Objects
    - Inheritance and Polymorphism
