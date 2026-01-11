@@ -14,7 +14,8 @@ This repository holds a collection of my Python learning journey, including note
    - [Functions and Modules: Wordplay](python_basics/words.py)
 2. [Object-Oriented Programming](classes)
    - Classes and Objects: [casino module with classes](classes/casino.py) and the [usage example of the casino module](classes/using_casino_module.py)  
-   - Inheritance and Polymorphism
+   - [Inheritance](classes/inheritance.py) 
+   - Polymorphism
    - Encapsulation and Abstraction
 3. Data Structures and Algorithms
    - Lists, Tuples, and Dictionaries
